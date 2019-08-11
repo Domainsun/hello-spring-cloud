@@ -6,10 +6,10 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/topsale/spring-cloud-config
-          search-paths: respo
-          username:
-          password:
+          uri: https://github.com/domain9065/hello-spring-cloud.git
+          search-paths: hello-spring-cloud-config/src/main/resources
+          username: domain9065
+          password: 888chinaunicom
 
 server:
   port: 8888
