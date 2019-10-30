@@ -1,4 +1,4 @@
-package com.funtl.hello.spring.cloud.config;
+package com.domain.hello.spring.cloud.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
  * @description:
  * @author: domain
- * @create: 2019/8/11 17:48
+ * @create: 2019/8/11 20:17
  */
 
 @SpringBootApplication

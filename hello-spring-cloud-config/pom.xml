@@ -48,6 +48,16 @@
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
+
+
+        <!--链路追踪系统-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <!--链路追踪系统-->
+
+
     </dependencies>
 
     <build>
@@ -56,7 +66,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.config.ConfigApplication</mainClass>
+                    <mainClass>com.domain.hello.spring.cloud.config.ConfigApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

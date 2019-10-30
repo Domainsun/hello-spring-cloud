@@ -1,4 +1,4 @@
-package com.domain.hello.spring.could.pos.feign;
+package com.domain.hello.spring.cloud.pos.feign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,12 @@
 spring:
   application:
     name: hello-spring-cloud-eureka
+  boot:
+    admin:
+      client:
+        url: http://localhost:8892
+  zipkin:
+    base-url: http://localhost:8891
 server:
   port: 8881
 eureka:

@@ -1,9 +1,10 @@
 spring:
   application:
     name: hello-spring-cloud-pos-feign
-
+  zipkin:
+    base-url: http://localhost:8891
 server:
-  port: 8885
+  port: 8887
 
 
 eureka:

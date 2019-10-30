@@ -48,6 +48,15 @@
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
+
+
+        <!--链路追踪系统-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <!--链路追踪系统-->
+
     </dependencies>
 
     <build>

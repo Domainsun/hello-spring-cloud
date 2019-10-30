@@ -51,6 +51,14 @@
             <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
         <!-- Spring Boot Admin End -->
+
+
+        <!--链路追踪系统-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <!--链路追踪系统-->
     </dependencies>
 
     <build>

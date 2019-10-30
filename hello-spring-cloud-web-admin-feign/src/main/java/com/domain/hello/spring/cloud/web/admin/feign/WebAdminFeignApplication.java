@@ -12,7 +12,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients //feign 客户端
 @EnableHystrixDashboard
 public class WebAdminFeignApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(WebAdminFeignApplication.class,args);
     }

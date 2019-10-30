@@ -1,4 +1,4 @@
-package com.domain.hello.spring.could.pos.feign.controller;
+package com.domain.hello.spring.cloud.pos.feign.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
